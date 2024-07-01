@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.VisualBasic;
+using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace UnitTestingExercise
 {
@@ -6,7 +8,8 @@ namespace UnitTestingExercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var x = new Calculator();
+            
         }
     }
 }
